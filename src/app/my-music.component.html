@@ -1,0 +1,15 @@
+
+<div id="MyMusicWrapper">
+
+    <h1>{{title}}</h1>
+
+    <h6>Here is where your music videos would be displayed and a link to your soundcloud.</h6>
+    
+    <div id="DatePicker">
+
+        <h6>Calandar to display all the concert dates.</h6>
+
+        <ngb-datepicker #dp [(ngModel)]="model" (navigate)="date = $event.next"></ngb-datepicker>
+    </div>
+
+</div>
